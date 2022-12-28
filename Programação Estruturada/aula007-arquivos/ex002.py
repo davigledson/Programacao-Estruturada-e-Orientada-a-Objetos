@@ -1,0 +1,5 @@
+arquivo=open("novo.txt",'a')
+texto = input('Digite um texto:')
+arquivo.write(texto)
+arquivo.close()
+print('gravado com sucesso')
