@@ -6,6 +6,12 @@ class Carro(Transporte):
         super().__init__(fabricante,ano,modelo)
         self.qtdPortas = qtdPortas
 
+    def setQtdPortas(self, qtdPortas):
+        self.qtdPortas = qtdPortas
+
+    def getQtdPortas(self):
+        return self.qtdPortas
+
     def abrirPortaMalas(self):
         print('Portas molas aberto')
     def info(self):
@@ -14,5 +20,6 @@ class Carro(Transporte):
 
 
 carro1=Carro('Ferrari',2000,'Velho',2)
+carro1.setQtdPortas(6)
 carro1.info()
 carro1.abrirPortaMalas()

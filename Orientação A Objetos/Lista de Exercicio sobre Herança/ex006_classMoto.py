@@ -5,6 +5,12 @@ class Moto(Transporte):
         super().__init__(fabricante, ano, modelo)
         self.cilindradas = cilindradas
 
+    def setCilindradas(self, cilindradas):
+        self.cilindradas = cilindradas
+
+    def getCilindradas(self):
+        return self.cilindradas
+
     def empinarRoda(self):
         print('Roda dianteira foi erguida')
 
@@ -13,6 +19,7 @@ class Moto(Transporte):
         print('Cilindradas:',self.cilindradas)
 
 moto1=Moto('Honda',2020,'novo',3000)
+moto1.setCilindradas(200)
 moto1.info()
 moto1.empinarRoda()
 
