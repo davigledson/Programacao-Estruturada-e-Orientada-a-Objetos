@@ -22,10 +22,10 @@ class Empregado:
         print('Nome: ', self.__nome)
         print('Salário: ', self.__salario)
 
-p1=Empregado('davi',8000)
+
 #p1.setNome ='davi'
 #p1.setSalario=8000 não roda o info assim por causa o init
 
-p1.info()
+'''p1.info()'''
 
 
