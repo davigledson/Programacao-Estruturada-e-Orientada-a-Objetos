@@ -1,4 +1,4 @@
-from ex004_classTransporte import Transporte
+from ex006_classTransporte import Transporte
 class Moto(Transporte):
 
     def __init__(self, fabricante, ano, modelo, cilindradas):

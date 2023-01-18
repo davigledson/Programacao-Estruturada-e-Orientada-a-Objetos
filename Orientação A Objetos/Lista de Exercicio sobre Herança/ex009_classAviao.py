@@ -1,4 +1,4 @@
-from ex004_classTransporte import Transporte
+from ex006_classTransporte import Transporte
 
 class Aviao(Transporte):
     posicao ='chão'

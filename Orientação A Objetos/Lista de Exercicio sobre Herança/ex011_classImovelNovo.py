@@ -1,4 +1,4 @@
-from ex007_classImovel import  Imovel
+from ex010_classImovel import  Imovel
 
 class ImovelNovo(Imovel):
     def __init__(self, tipo, endereco, valor, construtora):
