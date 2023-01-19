@@ -25,9 +25,15 @@ class Vendedor(Empregado):
 
 
 
-vendedor1=Vendedor('davi',6000,1000)
-vendedor1.setPercentualComissao(500)
+vendedor1=Vendedor('davi',6000,10)
+vendedor1.setPercentualComissao(80)
 #vendedor1.percentualComissao=100 vai assim tbm
 
+vendedor1.info()
+
+print('--'*20)
+
+vendedor1=Vendedor('davi',5000,50)
+vendedor1.setPercentualComissao(20)
 vendedor1.info()
 
