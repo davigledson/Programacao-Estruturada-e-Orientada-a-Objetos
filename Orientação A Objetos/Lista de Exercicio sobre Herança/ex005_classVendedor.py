@@ -8,6 +8,7 @@ class Vendedor(Empregado):
         self.percentualComissao=percentualComissao
 
     def setPercentualComissao(self, percentualComissao):
+        self.percentualComissao = percentualComissao
         
 
     def getPercentualComissao(self):
