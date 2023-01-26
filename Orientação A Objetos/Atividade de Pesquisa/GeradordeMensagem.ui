@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Mensagem de bom dia</string>
+   <string>Gerador de Mensagem de bom dia</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="Sair_button">
@@ -61,7 +61,7 @@
   <connection>
    <sender>Sair_button</sender>
    <signal>clicked()</signal>
-   <receiver>gerador_button</receiver>
+   <receiver>GeradordeMensagem</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -69,8 +69,8 @@
      <y>281</y>
     </hint>
     <hint type="destinationlabel">
-     <x>130</x>
-     <y>281</y>
+     <x>233</x>
+     <y>191</y>
     </hint>
    </hints>
   </connection>
